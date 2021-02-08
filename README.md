@@ -7,3 +7,4 @@ Dicha aplicación contiene un menú que pregunta al usuario que operacion desea 
 Al seleccionar una operación, dependiendo de cual sea, el usuario debe introducir el ID del registro, los nuevos datos de usuario o ambos y el resultado de la operacion será el resultado devuelto por el Webservice
 
 En el ejemplo se creó un registro con mi nombre y carnet (Luis Hernandez 200714432) y el ID generado fue el 1533
+

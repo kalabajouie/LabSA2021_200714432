@@ -8,5 +8,5 @@ Al seleccionar una operación, dependiendo de cual sea, el usuario debe introduc
 
 En el ejemplo se creó un registro con mi nombre y carnet (Luis Hernandez 200714432) y el ID generado fue el 1533
 
-[alt text](https://github.com/kalabajouie/LabSA2021_200714432/blob/main/LabSA2021_200714432_Practica1/1.png?raw=true)
 
+https://github.com/kalabajouie/LabSA2021_200714432/blob/main/LabSA2021_200714432_Practica1/1.png

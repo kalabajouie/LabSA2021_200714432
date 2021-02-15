@@ -15,6 +15,14 @@ https://jwt.io/
 Y como se puede ver el header y payload coinciden pero la firma no esta verificado por no tener secret
 
 
+![Se agrega el servicio SOAP.](https://github.com/kalabajouie/LabSA2021_200714432/blob/Practica2/Parte1/p2_13.PNG "Al agregar el secret de 32 caracteres generado se valida la firma y el token es valido..")
+Al agregar el secret de 32 caracteres generado se valida la firma y el token es valido.
+
+
+![Se valida un token introducido.](https://github.com/kalabajouie/LabSA2021_200714432/blob/Practica2/Parte1/p2_14.PNG "Se valida un token introducido")
+Se valida un token introducido.
+
+
 ## Parte 2
 La parte 2 de la practica consiste en consumir un servicio SOAP, el cual se encuentra en:
 

@@ -7,7 +7,7 @@ La parte 1 de la practica consiste en generar un token JWT utilizando el header 
 Aplicacion de escritorio, se introduce el nombre y carnet y al presionar el boton se genera el token, utilizando un secret generado automaticamente para el carnet, dicho carnet y secret se almacenan en memoria.
 
 
-![Se agrega el servicio SOAP.](https://github.com/kalabajouie/LabSA2021_200714432/blob/Practica2/Parte2/p2_12.PNG "Se agrega el servicio SOAP.")
+![Se agrega el servicio SOAP.](https://github.com/kalabajouie/LabSA2021_200714432/blob/Practica2/Parte1/p2_12.PNG "Se agrega el servicio SOAP.")
 El token generado se verifica en:
 ```
 https://jwt.io/

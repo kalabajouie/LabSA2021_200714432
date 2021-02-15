@@ -16,4 +16,11 @@ El codigo se encuentra en el archivo _Main.vb_
 
 ### Pruebas
 
-![Se agrega el servicio SOAP.](https://github.com/kalabajouie/LabSA2021_200714432/blob/Practica2/Parte2/p2_1.PNG "This is a sample image.")
+![Se agrega el servicio SOAP.](https://github.com/kalabajouie/LabSA2021_200714432/blob/Practica2/Parte2/p2_1.PNG "Se agrega el servicio SOAP.")
+Se agrega el servicio SOAP.
+
+![Se prueba la suma.](https://github.com/kalabajouie/LabSA2021_200714432/blob/Practica2/Parte2/p2_2.PNG "Se prueba la suma.")
+Se prueba la suma.
+
+![Se prueba la resta.](https://github.com/kalabajouie/LabSA2021_200714432/blob/Practica2/Parte2/p2_3.PNG "Se prueba la resta.")
+Se prueba la resta.

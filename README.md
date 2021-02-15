@@ -24,3 +24,9 @@ Se prueba la suma.
 
 ![Se prueba la resta.](https://github.com/kalabajouie/LabSA2021_200714432/blob/Practica2/Parte2/p2_3.PNG "Se prueba la resta.")
 Se prueba la resta.
+
+![Se prueba la multiplicacion.](https://github.com/kalabajouie/LabSA2021_200714432/blob/Practica2/Parte2/p2_4.PNG "Se prueba la multiplicacion.")
+Se prueba la multiplicacion.
+
+![Se prueba la division.](https://github.com/kalabajouie/LabSA2021_200714432/blob/Practica2/Parte2/p2_5.PNG "Se prueba la division.")
+Se prueba la division.

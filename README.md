@@ -7,3 +7,5 @@ tenia las funcionalidades de Hacer pedido, consultar estado del pedido en el res
 
 El lenguaje de programacion es .NET, para los tres servicios se crearon 3 proyectos diferentes
 
+![Archivo importante en servicio cliente.](https://github.com/kalabajouie/LabSA2021_200714432/blob/Practica3/1.png "Cliente")
+Archivo importante en servicio cliente.

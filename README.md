@@ -11,10 +11,10 @@ El lenguaje de programacion es .NET, para los tres servicios se crearon 3 proyec
 http://localhost:5001/cliente.asmx
 ```
 ```
-http://localhost:5001/restaurante.asmx
+http://localhost:5002/restaurante.asmx
 ```
 ```
-http://localhost:5001/repartidor.asmx
+http://localhost:5003/repartidor.asmx
 ```
 
 

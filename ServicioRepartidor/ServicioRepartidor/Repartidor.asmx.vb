@@ -14,22 +14,22 @@ Public Class Repartidor
 
 
     <WebMethod()>
-    Public Function RecibirEntregaRestaurante(idPedido As Integer, idRepartidor As Integer) As String
+    Public Function RecibirEntregaRestaurante(idPedido As Integer, nombre_repartidor As String) As String
 
         'Se recibe un ID de pedido y un ID del repartidor al que fue asignado el pedido, esto se almacena en una cola
 
-        Dim clave_valor As New KeyValuePair(Of Integer, Integer)(idPedido, idRepartidor)
+        Dim clave_valor As New KeyValuePair(Of Integer, String)(idPedido, nombre_repartidor)
         colaPedidosRepartidor.Enqueue(clave_valor)
 
         'se informa de la asignacion
-        Return "El pedido " & idPedido & " se ha asignado al repartidor " & idRepartidor
+        Return "El pedido " & idPedido & " se ha asignado al repartidor " & nombre_repartidor
 
     End Function
 
 
     <WebMethod()>
     Public Function EstadoPedidoCliente(idpedido As Integer) As String
-        Dim a As New KeyValuePair(Of Integer, Integer)()
+        Dim a As New KeyValuePair(Of Integer, String)()
         Dim respuesta As String = ""
 
 
@@ -37,7 +37,7 @@ Public Class Repartidor
         For Each elemento In colaPedidosRepartidor
             a = elemento
             If a.Key = idpedido Then
-                respuesta = "Su pedido: " & a.Key & " está en camino."
+                respuesta = "Su pedido con ID: " & a.Key & " está en camino, el repartidor designado es " & a.Value & "."
             End If
         Next
 
@@ -45,7 +45,7 @@ Public Class Repartidor
         For Each elemento In colaPedidosEntregados
             a = elemento
             If a.Key = idpedido Then
-                respuesta = "El pedido: " & a.Key & " ya fue entregado."
+                respuesta = "El pedido con ID: " & a.Key & " ha llegado al punto de entrega."
             End If
         Next
 
@@ -67,9 +67,10 @@ Public Class Repartidor
 
 
     <WebMethod()>
-    Public Function PedidoEntregado(idpedido As Integer, idRepartidor As Integer) As String
+    Public Function PedidoEntregado(idpedido As Integer) As String
         'se simula que el pedido fue entregado y el pedido se cierra
-        Return "El repartidor " & idRepartidor & " informa que el pedido " & idpedido & " ya fue entregado."
+        colaPedidosEntregados.Dequeue()
+        Return "El pedido " & idpedido & " ya fue entregado y se cierra el ticket."
     End Function
 
 End Class

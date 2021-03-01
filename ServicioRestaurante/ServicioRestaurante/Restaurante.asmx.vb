@@ -15,15 +15,14 @@ Public Class Restaurante
     Shared idPedido As Integer
 
     <WebMethod()>
-    Public Function RecibirPedidoCliente(pedido As String) As String
+    Public Function RecibirPedidoCliente(descripcion_pedido As String) As String
 
         'con cada pedido nuevo se suma un 1 a la variable idPedido que simula ser el ID generado para cada pedido
         idPedido = idPedido + 1
-        Dim clave_valor As New KeyValuePair(Of Integer, String)(idPedido, pedido)
+        Dim clave_valor As New KeyValuePair(Of Integer, String)(idPedido, descripcion_pedido)
         colaPedidos.Enqueue(clave_valor)
 
-        'PedidoCliente(idPedido)
-        Return "Ha llegado un nuevo pedido de " & pedido & ", el ID es " & idPedido
+        Return "Se ha tomado su pedido de " & descripcion_pedido & ", el ID de su pedido es " & idPedido
 
     End Function
 
@@ -65,12 +64,11 @@ Public Class Restaurante
 
     End Function
 
-
-
     <WebMethod()>
-    Public Function PedidoListoRepartidor(idpedido As Integer, idRepartidor As Integer) As String
-        'se simula la comunicacion con el repartidos, aunque en realidad es solo un string
-        Return "Se informó al repartidor " & idRepartidor & " que el pedido " & idpedido & " esta listo para ser entregado."
+    Public Function PedidoListoRepartidor(idpedido As Integer, nombre_repartidor As String) As String
+        Dim ESB As New WSESB.ESBSoapClient
+
+        Return ESB.PedidoListoRepartidor(idpedido, nombre_repartidor)
     End Function
 
 

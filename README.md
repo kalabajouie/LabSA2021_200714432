@@ -19,6 +19,8 @@ http://localhost:53157/Restaurante.asmx
 http://localhost:53313/Repartidor.asmx
 ```
 
+![Archivo importante en servicio Repartidor.](https://github.com/kalabajouie/LabSA2021_200714432/blob/Practica4/4.png "ESB")
+Archivo importante en servicio ESB.
 
 ![Archivo importante en servicio cliente.](https://github.com/kalabajouie/LabSA2021_200714432/blob/Practica4/1.png "Cliente")
 Archivo importante en servicio cliente.

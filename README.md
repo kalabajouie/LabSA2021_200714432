@@ -7,3 +7,5 @@ En esta práctica se tomó como base lo realizado en la practica 4, se creó una
 Luego se creó la rama _develop_, a partir de la rama _Practica5_, y la rama _master_ no se creó pues esta es la misma que la actual rama _Main_
 
 Se agregó la nomenclatura de versionamiento SEMVER, se tomó el desarrollo de la practica 3 como la version 1.0.0, el desarrollo de la practica 4 se tomó como la version 2.0.0 y por lo tanto esta practica se tomó como la version 3.0.0
+
+El lenguaje de programacion es .NET y la herramienta de construccion fue Jenkins.

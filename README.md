@@ -1,11 +1,12 @@
 # LabSA2021_200714432
 Repositorio para el laboratorio de Software Avanzado 1er semestre 2021
 
-## Practica 5
-En esta práctica se tomó como base lo realizado en la practica 4, se creó una nueva rama llamada _Practica5_ a partir de la rama _Practica4_.
+## Practica 6
+En esta práctica se tomó como base lo realizado en la practica 5, se creó una nueva rama _Practica6_ y se agregaron pruebas unitarias
 
-Luego se creó la rama _develop_, a partir de la rama _Practica5_, y la rama _master_ no se creó pues esta es la misma que la actual rama _Main_
+Para agregar las pruebas unitarias se utilizó un nuevo proyecto de pruebas unitarias de Visual Basic
 
-Se agregó la nomenclatura de versionamiento SEMVER, se tomó el desarrollo de la practica 3 como la version 1.0.0, el desarrollo de la practica 4 se tomó como la version 2.0.0 y por lo tanto esta practica se tomó como la version 3.0.0
 
-El lenguaje de programacion es .NET y la herramienta de construccion fue Jenkins.
+Se crearon dos pruebas unitarias en uno de los servicios de la practica, el servicio de Restaurante, se probaron las pruebas y fueron exitosas.
+
+Luego se utilizó Sonarqube para obtener un analisis del proyecto, lamentablemente Sonarqube no realiza pruebas ni genera reportes, solo utiliza los reportes que genera la herramienta de pruebas unitarias y los presenta, debido a que no se pudo conectar Sonarqube con el proyecto de pruebas unitarias no fue posible mostrar el resultado del _Coverage_

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>ServicioRestaurante</ProjectName>
+  <ProjectLanguage>VB</ProjectLanguage>
+  <ProjectType>Product</ProjectType>
+  <ProjectGuid>18fda655-444b-40f2-a5e2-9bdd788f7cc3</ProjectGuid>
+  <FullPath>D:\Documents\GitHub\LabSA2021_200714432\ServicioRestaurante\ServicioRestaurante\ServicioRestaurante.vbproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResults>
+    <AnalysisResult Id="FilesToAnalyze" Location="D:\Documents\GitHub\LabSA2021_200714432\ServicioRestaurante\.sonarqube\conf\0\FilesToAnalyze.txt" />
+  </AnalysisResults>
+  <AnalysisSettings>
+    <Property Name="sonar.vbnet.roslyn.reportFilePaths">D:\Documents\GitHub\LabSA2021_200714432\ServicioRestaurante\ServicioRestaurante\bin\ServicioRestaurante.dll.RoslynCA.json|D:\Documents\GitHub\LabSA2021_200714432\ServicioRestaurante\ServicioRestaurante\bin\ServicioRestaurante.dll.RoslynCA.json</Property>
+    <Property Name="sonar.vbnet.analyzer.projectOutPaths">D:\Documents\GitHub\LabSA2021_200714432\ServicioRestaurante\.sonarqube\out\0</Property>
+  </AnalysisSettings>
+  <Configuration>Debug</Configuration>
+  <Platform>AnyCPU</Platform>
+</ProjectInfo>

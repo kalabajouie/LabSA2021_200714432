@@ -1,0 +1,203 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual Basic",
+        "version": "3.8.0.0",
+        "fileVersion": "3.8.0-5.20604.10 (9ed4b774)",
+        "semanticVersion": "3.8.0",
+        "language": "es-MX"
+      },
+      "results": [
+        {
+          "ruleId": "S117",
+          "level": "warning",
+          "message": "Rename this local variable to match the regular expression: '^[a-z][a-z0-9]*([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Documents/GitHub/LabSA2021_200714432/ServicioRestaurante/ServicioRestaurante/My%20Project/MyExtensions/MyWebExtension.vb",
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 21,
+                  "endLine": 39,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S117",
+          "level": "warning",
+          "message": "Rename this local variable to match the regular expression: '^[a-z][a-z0-9]*([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Documents/GitHub/LabSA2021_200714432/ServicioRestaurante/ServicioRestaurante/Restaurante.asmx.vb",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 13,
+                  "endLine": 22,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S117",
+          "level": "warning",
+          "message": "Rename this local variable to match the regular expression: '^[a-z][a-z0-9]*([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Documents/GitHub/LabSA2021_200714432/ServicioRestaurante/ServicioRestaurante/My%20Project/MyExtensions/MyWebExtension.vb",
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 21,
+                  "endLine": 54,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1654",
+          "level": "warning",
+          "message": "Rename this parameter to match the regular expression: '^[a-z][a-z0-9]*([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Documents/GitHub/LabSA2021_200714432/ServicioRestaurante/ServicioRestaurante/Restaurante.asmx.vb",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 42,
+                  "endLine": 18,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S117",
+          "level": "warning",
+          "message": "Rename this local variable to match the regular expression: '^[a-z][a-z0-9]*([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Documents/GitHub/LabSA2021_200714432/ServicioRestaurante/ServicioRestaurante/Restaurante.asmx.vb",
+                "region": {
+                  "startLine": 69,
+                  "startColumn": 13,
+                  "endLine": 69,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1654",
+          "level": "warning",
+          "message": "Rename this parameter to match the regular expression: '^[a-z][a-z0-9]*([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Documents/GitHub/LabSA2021_200714432/ServicioRestaurante/ServicioRestaurante/Restaurante.asmx.vb",
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 64,
+                  "endLine": 68,
+                  "endColumn": 81
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6145",
+          "level": "warning",
+          "message": "Configure 'Option Strict On' for assembly 'ServicioRestaurante'.",
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S117": {
+          "id": "S117",
+          "shortDescription": "Local variable names should comply with a naming convention",
+          "fullDescription": "Sharing some naming conventions is a key point to make it possible for a team to efficiently collaborate.This rule checks that all local variables follow a naming convention.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/vbnet/RSPEC-117",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "Visual Basic",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S1654": {
+          "id": "S1654",
+          "shortDescription": "Method parameters should follow a naming convention",
+          "fullDescription": "Sharing some naming conventions is a key point to make it possible for a team to efficiently collaborate.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/vbnet/RSPEC-1654",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "Visual Basic",
+              "SonarWay",
+              "MainSourceScope"
+            ]
+          }
+        },
+        "S6145": {
+          "id": "S6145",
+          "shortDescription": "\"Option Strict\" should be enabled",
+          "fullDescription": "There are several compilations options available for Visual Basic source code and Option Strict defines compiler behavior for implicit data type conversions. Specifying Option Strict Off will allow:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/vbnet/RSPEC-6145",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Visual Basic",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

@@ -15,9 +15,9 @@ Luego se crear el archivo _docker-compose.yml_ que incluye la creacion de la ima
 
 Despues debe loguearse en el servidor mysql para crear una base de datos y una tabla con datos.
 
-![Se agrega el servicio SOAP.](https://github.com/kalabajouie/LabSA2021_200714432/blob/Practica8/bd.PNG "Se agrega el servicio SOAP.")
+![Se agrega el servicio SOAP.](https://github.com/kalabajouie/LabSA2021_200714432/blob/Practica8/bd.png "")
 
 
 Como cuarto paso se agrega un archivo index.php que incluye la conexion a base de datos, un ciclo para leer las filas de la tabla y codigo html para presentarlo, en este punto fue donde falló mi conexion.
 
-![Se agrega el servicio SOAP.](https://github.com/kalabajouie/LabSA2021_200714432/blob/Practica8/fallo.PNG "Se agrega el servicio SOAP.")
+![Se agrega el servicio SOAP.](https://github.com/kalabajouie/LabSA2021_200714432/blob/Practica8/fallo.png "")

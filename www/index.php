@@ -1,7 +1,7 @@
 <?php
 
 //Step1
- $db = mysqli_connect('localhost','my_username','my_password','database_name')
+ $db = mysqli_connect('127.0.0.1:3306','my_username','my_password','database_name')
  or die('Error connecting to MySQL server.');
 ?>
 

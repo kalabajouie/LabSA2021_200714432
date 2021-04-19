@@ -1,2 +1,12 @@
-FROM php:7.0.30-apache 
-RUN docker-php-ext-install mysqli
+FROM python:3
+
+WORKDIR /usr/src/app
+
+COPY requirements.txt ./
+COPY holamundo.py ./
+
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . .
+
+CMD [ "python", "./holamundo.py" ]

@@ -10,6 +10,8 @@ Debido a que las practicas anteriores las desarrollé en VB.NET y no me fue posi
 Microservicio de Registro de usuario, microservicio de creacion de eleccion, microservicio de JWT, microservicio de RENAP
 ```
 
+Los Dockerfile se encuentran dentro de la carpeta de cada Microservicio.
+
 ![Se agrega el servicio SOAP.](https://github.com/kalabajouie/LabSA2021_200714432/blob/Practica10/dck.png?raw=true "")
 Docker desktop mostrando los containers
 

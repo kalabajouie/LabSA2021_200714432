@@ -17,11 +17,14 @@ terraform show -no-color > codigo_generado.tf
 - En la primera linea se hace el import y se indica el nombre de la VM.
 - En la segunda linea se escribe la configuracion a un archivo llamado, en este caso, _codigo_generado.tf_
 
-El archivo generado (codigo_generado.tf) se ve de esta forma, hay que hacerle algunos y luego renombrarlo como main.tf, con esto ya podemos hacer el _terraform plan_ y el _terraform apply_
+![Se agrega el servicio SOAP.](https://github.com/kalabajouie/LabSA2021_200714432/blob/Practica12/cod.png "")
+
+
+Al archivo generado (codigo_generado.tf) hay que hacerle algunos y luego renombrarlo como main.tf, con esto ya podemos hacer el _terraform plan_ y el _terraform apply_
 
 
 ![Se agrega el servicio SOAP.](https://github.com/kalabajouie/LabSA2021_200714432/blob/Practica12/import.png "")
-El archivo generado __codigo_generado.tf__
+El archivo generado _codigo_generado.tf_
 
 
 
